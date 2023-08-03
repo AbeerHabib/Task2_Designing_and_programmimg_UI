@@ -1,9 +1,7 @@
-# Robot-Arm-Control-Interface
-Create a robotic arm control interface page and link it with the database.
+# Designing and programming robotic arm control interface using HTML/CSS, JavaScript, PHP, and SQL
 
-I've created a web page to control the robot arm by using Notepad++. What I do is I used HTML to create the web page structure and CSS for page layout and Javascript to show the value when moving the range slider, then I saved the page in .php extention.
+I've developed a web page using Notepad++ to control a robotic arm. The page structure was created using HTML, CSS was used for page layout, and Javascript was implemented to display the value when moving the range slider. The page was saved as .php extension.
 
-Then I created a database using xampp and phpmyadmin called Robot Arm Control, then I created a table that contains 8 columns, 6 of them are expressing motors (base, shoulder, elbow, wrist1. wrist2, gripper) and one of them expresses the id of each piece, and the other column expresses the status of the motor whether it is on or off.
+To store data, I set up a database using XAMPP and PHPMyAdmin called "Robot Arm Control". Within this database, I created a table with 8 columns, 6 of these columns represent the motors (base, shoulder, elbow, wrist1. wrist2, gripper), one column represents the ID of each motor piece, and the remaining column indicates whether the motor is turned on or off.
 
-I have also linked the database to the user interface where if the user clicks the "save" button, the values for range sliders will be sent to the table in the database, and if the user clicks the "run" button, the robot status will convert from "off" to "on".
-I have also created a page where the degrees of the arm pieces are shown, this data has been fetched from the database.
+I successfully linked the database to the user interface. When the user clicks the "save" button, the values of the range sliders are sent to the table in the database. Similarly, when the user clicks the "run" button, the status of the robot changes from "off" to "on". Additionally, I created a page that displays the degrees of each arm piece, and this data fetched from the database.
